@@ -173,7 +173,7 @@ function mouseReleased() {
     state = 0;
   }
   //Deixaste o teu rasto. Guarda-o.
-  //saveFrame("save/f#####.png");
+  saveFrames("save/f#####.png");
 }
 
 function convolution(x, y, matrix, matrixsize, img) {
